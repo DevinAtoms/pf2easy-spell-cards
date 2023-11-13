@@ -24,14 +24,12 @@ body.cards main#lienzo {
 }
 
 body.cards main article.result:nth-child(9n + 1),
-body.cards main article.result:nth-child(9n + 2),
-body.cards main article.result:nth-child(9n + 3) {
+body.cards main article.result:nth-child(9n + 2) {
 	margin-top: 15.215mm;
 }
 
-body.cards main article.result:nth-child(9n + 7),
-body.cards main article.result:nth-child(9n + 8),
-body.cards main article.result:nth-child(9n + 9) {
+body.cards main article.result:nth-child(9n + 3),
+body.cards main article.result:nth-child(9n + 4),{
 	/* width main: 210mm */
 	/* margin-bottom: 15.215mm;  */
 	/* width main: 211mm */
@@ -40,8 +38,8 @@ body.cards main article.result:nth-child(9n + 9) {
 
 body.cards article.result {
 	padding: 5px 10px !important;
-	height: 3.5in;
-	width: 2.5in;
+	height: 6in;
+	width: 4in;
 	display: flex;
 	flex-direction: column;
 	border: 1px dashed lightgray;
